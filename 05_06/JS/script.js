@@ -1,6 +1,6 @@
-const FEATURED = document.querySelector(".top-pitch");
+const FEATURED = document.querySelector(".featured-image");
 
-const THEIMAGE = FEATURED.querySelector("h2");
+const THEIMAGE = FEATURED.querySelector("img");
 
 
 var altText= THEIMAGE.getAttribute("alt");
